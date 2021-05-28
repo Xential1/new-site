@@ -136,6 +136,9 @@ padding: .5rem 0;
     font-size: 30px;
 }
 /*----account--*/
+.card{
+    margin-top: 1rem;
+}
 .card-header h5 a{
     font-size: 30px;
     text-decoration: none;
