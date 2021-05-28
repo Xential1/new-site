@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971;
+}
+
+/*---top bar---*/
+.top-bar{
+background: #7aaec4;
+height: 2.8rem;
+padding: .5rem 0;
+}
+.top-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.navbar-search{
+    margin-top: 10px;
+}
+.navbar-brand img{
+    height: 60px;
+}
+/*---navigation---*/
+
+.navbar{
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+.nav-item{
+    padding: .3rem;
+}
+.nav-link{
+    color: #5b5555 !important;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+/*---build---*/
+.text-dark::after{
+    content: '';
+    background:#5b5555 !important;
+    height: 5px;
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.lead {
+    font-size: 20px;
+    font-weight: 500;
+}
+.side{
+    max-width: 100%;
+}
+.pley{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.pley i{
+    font-size: 13px;
+    margin: 3px;
+}
+.clay{
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn-side{
+    font-size: 1rem;
+    color:#5b5555;
+    font-weight: 600;
+    margin: 5px;
+    background: #7aaec4;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.btn-side:hover{
+    background-color: slateblue;
+    color: white;
+}
+/*---fixed background---*/
+#fixed-backfround{
+    background-image: url(img/background3.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed-backfround h2,h4{
+    color: white;
+    text-align: center;
+    margin-top: 5rem !important;
+}
+.fixed a{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*---care--*/
+#care{
+    margin-top: 3rem;
+}
+.care h1{
+    color: #333;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+.care p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.care img{
+    height: 100%;
+}
+.btn-care{
+    background-color:#5b5555;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.jumbori{
+    font-size: 30px;
+}
+/*----account--*/
+.card-header h5 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #5b5555;
+    font-weight: 600;
+}
+.custom-file{
+    margin-top: 1rem;
+}
+footer{
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+}
+footer img{
+    height: 8.5rem;
+    margin: 1.5rem auto;
+}
+footer p, footer a, .socket a{
+    color: white;
+    text-decoration: none;
+}
+ul.social{
+    list-style-type: none;
+    display: flex;
+    max-width: 16rem;
+    margin: 0 auto;
+    padding: 0;
+}
+ul.social li{
+    margin: 0 auto;
+    font-size: 2.3rem;
+}
+ul.social li .fa:hover{
+    color: #62a0d2;
+}
+.socket{
+    background-color: #222222;
+    border-top: .2rem solid #4981b3;
+    color: white;
+}
