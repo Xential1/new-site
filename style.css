@@ -122,7 +122,7 @@ padding: .5rem 0;
     font-size: 15px;
 }
 .care img{
-    width:70%;
+    width:100%;
 }
 .btn-care{
     background-color:#5b5555;
@@ -135,12 +135,18 @@ padding: .5rem 0;
 .jumbori{
     font-size: 30px;
 }
+.btn-jumbo{
+    width: 15rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 20px;
+}
 /*----account--*/
 .card{
     margin-top: 1rem;
 }
 .card-header h5 a{
-    font-size: 25px;
+    font-size: 30px;
     text-decoration: none;
     color: #5b5555;
     font-weight: 600;
@@ -149,7 +155,7 @@ padding: .5rem 0;
     margin-top: 1rem;
 }
 .form-group label{
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 600;
 }
 footer{
@@ -182,4 +188,87 @@ ul.social li .fa:hover{
     background-color: #222222;
     border-top: .2rem solid #4981b3;
     color: white;
+}
+@media(max-width: 700px){
+    .form-group label{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .card-header h5 a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #5b5555;
+        font-weight: 600;
+    }
+    .care img{
+        width:50%;
+    }
+    .care h1{
+        color: #333;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 4rem;
+    }
+    .care p{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .navbar{
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+        z-index: 1;
+    }
+    .lead {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .side{
+        max-width: 80%;
+    }
+    .pley{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+    .pley i{
+        font-size: 10px;
+        margin: 3px;
+    }
+    .clay{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .btn-side{
+        font-size: .9.5rem;
+        color:#5b5555;
+        font-weight: 600;
+        margin: 5px;
+        background: #7aaec4;
+        cursor: pointer;
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        width: 7rem;
+        height: 2rem;
+    }
+    .jumbori{
+        font-size: 20px;
+    }
+    .btn-jumbo{
+        width: 10rem;
+        height: 2rem;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .btn-care{
+        background-color:#5b5555;
+        color: white;
+        outline: none;
+        text-decoration: none;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        width: 12rem;
+        height: 2rem;
+    }
 }
