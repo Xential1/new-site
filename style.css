@@ -122,7 +122,7 @@ padding: .5rem 0;
     font-size: 15px;
 }
 .care img{
-    height: 65%;
+    width:70%;
 }
 .btn-care{
     background-color:#5b5555;
@@ -140,7 +140,7 @@ padding: .5rem 0;
     margin-top: 1rem;
 }
 .card-header h5 a{
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     color: #5b5555;
     font-weight: 600;
@@ -149,7 +149,7 @@ padding: .5rem 0;
     margin-top: 1rem;
 }
 .form-group label{
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
 }
 footer{
