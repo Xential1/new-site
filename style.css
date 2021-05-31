@@ -43,6 +43,13 @@ padding: .5rem 0;
 .nav-link:hover{
     color: blue !important;
 }
+.fa-bars{
+    font-size: 30 !important;
+    margin-top: 1rem;
+}
+.navbar-toggler{
+    outline: none !important;
+}
 /*---build---*/
 .text-dark::after{
     content: '';
@@ -141,6 +148,10 @@ padding: .5rem 0;
     font-weight: 600;
     font-size: 20px;
 }
+.btn-submit{
+    font-size: 17px;
+    font-weight: 500;
+}
 /*----account--*/
 .card{
     margin-top: 1rem;
@@ -214,15 +225,18 @@ ul.social li .fa:hover{
         font-size: 12px;
     }
     .navbar{
-        font-size: 1rem;
+        font-size: .9rem;
         font-weight: 600;
         letter-spacing: .1rem;
         box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
         z-index: 1;
     }
     .lead {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
+    }
+    .text-dark{
+        font-size: 33px;
     }
     .side{
         max-width: 80%;
@@ -244,11 +258,11 @@ ul.social li .fa:hover{
         font-size: .9.5rem;
         color:#5b5555;
         font-weight: 600;
-        margin: 5px;
+        
         background: #7aaec4;
         cursor: pointer;
-        margin-top: .5rem;
-        margin-bottom: 1rem;
+        margin-top: .2rem;
+        margin-bottom: .8rem;
         width: 7rem;
         height: 2rem;
     }
@@ -270,5 +284,8 @@ ul.social li .fa:hover{
         margin-bottom: 1.5rem;
         width: 12rem;
         height: 2rem;
+    }
+    #fixed-backfround{
+        width: 90%;
     }
 }
