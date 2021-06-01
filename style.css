@@ -115,7 +115,7 @@ padding: .5rem 0;
 
 /*---care--*/
 #care{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .care h1{
     color: #333;
@@ -291,5 +291,14 @@ ul.social li .fa:hover{
     }
     #fixed-backfround{
         width: 97%;
+    }
+    #care{
+        margin-top: 1.2rem;
+    }
+    .care h1{
+        color: #333;
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: .5rem;
     }
 }
