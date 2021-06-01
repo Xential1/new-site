@@ -150,12 +150,15 @@ padding: .5rem 0;
     font-size: 20px;
     background: #5b5555;
     text-align: center;
+    color: white;
 }
 .btn-submit{
     font-size: 17px;
     font-weight: 500;
     background: #5b5555;
     text-align: center;
+    color: white;
+    cursor: pointer;
 }
 /*----account--*/
 .card{
