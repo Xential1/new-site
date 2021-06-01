@@ -121,7 +121,7 @@ padding: .5rem 0;
     color: #333;
     font-size: 35px;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 .care p{
     font-weight: 600;
@@ -274,7 +274,7 @@ ul.social li .fa:hover{
         font-size: 20px;
     }
     .btn-jumbo{
-        width: 10rem;
+        width: 12rem;
         height: 2rem;
         font-weight: 500;
         font-size: 15px;
