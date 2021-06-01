@@ -49,6 +49,10 @@ padding: .5rem 0;
 .navbar-toggler{
     outline: none !important;
 }
+#google-translate{
+    justify-content: center;
+    margin-left: 3rem;
+}
 /*---build---*/
 .text-dark::after{
     content: '';
